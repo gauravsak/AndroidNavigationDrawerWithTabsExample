@@ -1,0 +1,5 @@
+<!-- This file is needed to as android tests don't start unless they get a string resource to load in
+ the test classpath-->
+<resources>
+    <string name="hello_world">Hello World!</string>
+</resources>

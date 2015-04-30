@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- action bar -->
+    <color name="action_bar_background">#ff2c3742</color>
+
+    <!-- app in general -->
+    <color name="planet_fragment_background">#fffefefe</color>
+
+    <!-- nav drawer -->
+    <color name="nav_drawer_background">#ff2e3d4b</color>
+    <color name="selected_item_background">#ff0986b2</color>
+    <color name="selected_item_pressed">#ff394a5a</color>
+    <color name="drawer_list_item_text">#fffefefe</color>
+
+    <!-- tabs -->
+    <color name="tab_divider">#ff454545</color>
+    <color name="tab_text">#ffffffff</color>
+</resources>

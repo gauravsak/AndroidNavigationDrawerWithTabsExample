@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:activatedBackgroundIndicator">@drawable/nav_drawer_item_activated_background</item>
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+    <!-- The new lollipop material design recommends popup menu items to hide menu button. Though
+     not recommended, this can be customized using below custom popup menu-->
+    <!--<item name="android:actionOverflowMenuStyle" tools:ignore="NewApi">@style/OverflowMenu</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>-->
+
+    </style>
+    
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/action_bar_background</item>
+        <item name="background">@color/action_bar_background</item>
+    </style>
+
+<!--<style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow" >
+        <item name="android:overlapAnchor" tools:ignore="NewApi">false</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">?attr/actionBarSize</item>
+    </style>-->
+</resources>
